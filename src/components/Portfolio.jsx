@@ -40,7 +40,7 @@ const Portfolio = () => {
             id: 4,
             src: chatLogApplication,
             codeLink: 'https://github.com/viktoriiazolotova/react-chatlog',
-            demoLink: 'https://youtu.be/CJjG9CFBibc',
+            demoLink: 'https://youtu.be/_ltbp0X-VV4',
         },
         {
             id: 5,

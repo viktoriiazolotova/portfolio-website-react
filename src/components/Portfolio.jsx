@@ -5,53 +5,51 @@ import petCareExchange from '../assets/portfolio/petCareExchange.png'
 import portfolioV1 from '../assets/portfolio/portfolioV1.png'
 import taskList from '../assets/portfolio/taskList.jpeg'
 import weatherReport from '../assets/portfolio/weatherReport.png'
+import PortfolioItem from './PortfolioItem'
 
 const Portfolio = () => {
     const portfolio = [
         {
-            id: 1,
+            id: 0,
             src: petCareExchange,
-            codeLink: 'https://github.com/viktoriiazolotova',
-            demoLink: 'https://github.com/viktoriiazolotova',
+            codeLink:
+                'https://github.com/viktoriiazolotova/front-end-pet-care-exchange',
+            demoLink: 'https://pet-care-exchange-react.web.app/',
+        },
+        {
+            id: 1,
+            src: inspirationBoard,
+            codeLink:
+                'https://github.com/viviantomato/front-end-inspiration-board',
+            demoLink: 'https://youtu.be/OP01blcyxxc',
         },
         {
             id: 2,
-            src: inspirationBoard,
-            codeLink: '',
-            demoLink: '',
+            src: portfolioV1,
+            codeLink:
+                'https://github.com/viktoriiazolotova/personal-portfolio-site',
+            demoLink: 'https://viktoriiazolotova.github.io/',
         },
         {
             id: 3,
-            src: portfolioV1,
-            codeLink: '',
+            src: taskList,
+            codeLink: 'https://github.com/viktoriiazolotova/task-list-api',
             demoLink: '',
         },
         {
             id: 4,
-            src: taskList,
-            codeLink: '',
-            demoLink: '',
+            src: chatLogApplication,
+            codeLink: 'https://github.com/viktoriiazolotova/react-chatlog',
+            demoLink: 'https://youtu.be/CJjG9CFBibc',
         },
         {
             id: 5,
-            src: chatLogApplication,
-            codeLink: '',
-            demoLink: '',
-        },
-        {
-            id: 6,
             src: weatherReport,
-            codeLink: '',
+            codeLink: 'https://github.com/viktoriiazolotova/weather-report',
             demoLink: '',
         },
     ]
 
-    const openDemoLink = (id) => {
-        console.log('it clicked here', portfolio[id])
-        const demoLink = portfolio[id].demoLink
-        // const githubUrl = 'https://github.com/viktoriiazolotova' // Replace with your GitHub repository URL
-        window.open(demoLink, '_blank')
-    }
     return (
         <div
             name="portfolio"
@@ -66,28 +64,12 @@ const Portfolio = () => {
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
                     {portfolio.map(({ id, src }) => (
-                        <div
-                            key={id}
-                            className="shadow-md shadow-gray-600 rounded-lg"
-                        >
-                            <img
-                                src={src}
-                                alt=""
-                                className="rounded-md duration-200 hover:scale-105"
-                            ></img>
-
-                            <div className="flex items-center justify-center">
-                                <button
-                                    onClick={() => openDemoLink(id)}
-                                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                                >
-                                    Demo
-                                </button>
-                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                                    Code
-                                </button>
-                            </div>
-                        </div>
+                        <PortfolioItem
+                            key={id + 1}
+                            src={src}
+                            id={id}
+                            portfolio={portfolio}
+                        />
                     ))}
                 </div>
             </div>

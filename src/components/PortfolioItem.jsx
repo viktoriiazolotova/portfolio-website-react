@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const PortfolioItem = ({ id, src, portfolio }) => {
+const PortfolioItem = ({ id, src, portfolio, altTitle }) => {
     const handleLinkClick = (id, linkCategory) => {
         const link =
             linkCategory === 'demo'
@@ -16,7 +16,7 @@ const PortfolioItem = ({ id, src, portfolio }) => {
         <div key={id + 1} className="shadow-md shadow-gray-600 rounded-lg">
             <img
                 src={src}
-                alt=""
+                alt={altTitle}
                 className="rounded-md duration-200 hover:scale-105 h-3/4 w-full"
             ></img>
 

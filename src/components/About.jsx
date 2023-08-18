@@ -14,24 +14,19 @@ const About = () => {
                     </h3>
                 </div>
                 <p className="text-xl mt-20">
-                    {' '}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Laborum, consequatur adipisci. Voluptatibus obcaecati,
-                    corrupti ducimus eum nihil non repellendus deleniti
-                    recusandae expedita quaerat animi laborum dolorem eos rem!
-                    Debitis quasi in itaque odit explicabo ad error impedit
-                    possimus, ullam delectus laudantium, culpa temporibus facere
-                    officia, voluptate esse at obcaecati? Quisquam!
+                    I am deeply passionate about building applications that have
+                    a tangible impact on solving real-world problems. For me,
+                    software development goes beyond just writing code – it's
+                    about creating solutions that address challenges faced by
+                    individuals and communities. Whether it's enhancing user
+                    experiences, streamlining processes, or improving
+                    accessibility, I thrive on the opportunity to make a
+                    positive difference through technology.
                 </p>
                 <br />
                 <p className="text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                    culpa aliquam est voluptatem provident nemo quos beatae
-                    placeat dolor! Atque culpa iste magnam rerum modi facere
-                    voluptatibus laudantium, omnis aliquid reiciendis blanditiis
-                    nemo quibusdam, expedita totam distinctio ipsa similique
-                    exercitationem iusto voluptates, sunt corrupti voluptate
-                    laborum? Quaerat dolores possimus ut.
+                    If I am not coding 💻 , you can find me hiking 🥾 , camping
+                    🏕️ , snowboarding 🏂 , or playing with my cat 🐈‍ .
                 </p>
             </div>
         </div>

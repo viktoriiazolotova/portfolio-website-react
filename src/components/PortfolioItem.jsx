@@ -14,6 +14,9 @@ const PortfolioItem = ({ id, src, portfolio, altTitle }) => {
     }
     return (
         <div key={id + 1} className="shadow-md shadow-gray-600 rounded-lg">
+            <div className="flex flex-col items-center">
+                <h4 className="mb-4 text-xl text-white">{altTitle}</h4>
+            </div>
             <img
                 src={src}
                 alt={altTitle}
@@ -45,6 +48,7 @@ PortfolioItem.propTypes = {
         PropTypes.shape({
             demoLink: PropTypes.string,
             codeLink: PropTypes.string,
+            altTitle: PropTypes.string,
         })
     ).isRequired,
 }

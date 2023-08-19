@@ -12,7 +12,7 @@ const Portfolio = () => {
         {
             id: 0,
             src: petCareExchange,
-            altTitle: 'petCareExchange',
+            altTitle: 'PetCareExchange',
             codeLink:
                 'https://github.com/viktoriiazolotova/front-end-pet-care-exchange',
             demoLink: 'https://pet-care-exchange-react.web.app/',
@@ -20,7 +20,7 @@ const Portfolio = () => {
         {
             id: 1,
             src: inspirationBoard,
-            altTitle: 'two notebooks, pen and green leaf',
+            altTitle: 'Inspiration Board',
             codeLink:
                 'https://github.com/viviantomato/front-end-inspiration-board',
             demoLink: 'https://youtu.be/OP01blcyxxc',
@@ -28,7 +28,7 @@ const Portfolio = () => {
         {
             id: 2,
             src: portfolioV1,
-            altTitle: 'portfolio',
+            altTitle: 'Portfolio v1',
             codeLink:
                 'https://github.com/viktoriiazolotova/personal-portfolio-site',
             demoLink: 'https://viktoriiazolotova.github.io/',
@@ -36,21 +36,21 @@ const Portfolio = () => {
         {
             id: 3,
             src: taskList,
-            altTitle: 'todo list',
+            altTitle: 'Todo List',
             codeLink: 'https://github.com/viktoriiazolotova/task-list-api',
             demoLink: 'https://github.com/viktoriiazolotova/task-list-api',
         },
         {
             id: 4,
             src: chatLogApplication,
-            altTitle: 'chat log',
+            altTitle: 'Chat Log Applicatipn',
             codeLink: 'https://github.com/viktoriiazolotova/react-chatlog',
             demoLink: 'https://youtu.be/_ltbp0X-VV4',
         },
         {
             id: 5,
             src: weatherReport,
-            altTitle: 'weather report',
+            altTitle: 'Weather Report',
             codeLink: 'https://github.com/viktoriiazolotova/weather-report',
             demoLink: 'https://youtu.be/uQP-OOaRVFY',
         },

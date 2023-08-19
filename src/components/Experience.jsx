@@ -1,11 +1,15 @@
 import React from 'react'
-
 import css from '..//assets/css.png'
+import django from '..//assets/django.png'
+import expressjs from '../assets/expressjs.png'
+import flask from '../assets/flask.png'
 import github from '..//assets/github.png'
 import html from '..//assets/html.png'
 import javascript from '..//assets/javascript.png'
-import nextjs from '..//assets/nextjs.png'
+import cypress from '..//assets/cypress.png'
 import node from '..//assets/node.png'
+import postgres from '..//assets/postgresql.png'
+import python from '..//assets/python.png'
 import reactImage from '..//assets/reactImage.png'
 
 const Experience = () => {
@@ -30,24 +34,56 @@ const Experience = () => {
         },
         {
             id: 4,
+            src: node,
+            title: 'Node JS',
+            style: 'shadow-green-500',
+        },
+
+        {
+            id: 5,
+            src: expressjs,
+            title: 'Express JS',
+            style: 'shadow-yellow-500',
+        },
+        {
+            id: 6,
             src: reactImage,
             title: 'React',
             style: 'shadow-blue-600',
         },
+
         {
-            id: 5,
-            src: nextjs,
-            title: 'Next js',
+            id: 7,
+            src: python,
+            title: 'Python',
+            style: 'shadow-blue-400',
+        },
+        {
+            id: 8,
+            src: flask,
+            title: 'Flask',
+            style: 'shadow-gray-400',
+        },
+        {
+            id: 9,
+            src: django,
+            title: 'Django',
+            style: 'shadow-green-600',
+        },
+        {
+            id: 10,
+            src: postgres,
+            title: 'PostgreSQL',
             style: 'shadow-white',
         },
         {
-            id: 6,
-            src: node,
-            title: 'Node',
-            style: 'shadow-orange-500',
+            id: 11,
+            src: cypress,
+            title: 'Cypress',
+            style: 'shadow-green-400',
         },
         {
-            id: 7,
+            id: 12,
             src: github,
             title: 'GitHub',
             style: 'shadow-gray-400',

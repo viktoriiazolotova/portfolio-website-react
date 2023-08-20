@@ -8,17 +8,17 @@ const SocialLinks = () => {
             id: 1,
             child: (
                 <>
-                    Linkedn <FaLinkedin size={30} />
+                    <FaLinkedin size={30} className="pr-1" /> Linkedn
                 </>
             ),
             href: 'https://www.linkedin.com/in/viktoriiazolotova/',
-            style: 'rounded-tr-md',
         },
         {
             id: 2,
             child: (
                 <>
-                    GitHub <FaGithub size={30} />
+                    <FaGithub size={30} className="pr-1" />
+                    GitHub
                 </>
             ),
             href: 'https://github.com/viktoriiazolotova',
@@ -27,7 +27,8 @@ const SocialLinks = () => {
             id: 3,
             child: (
                 <>
-                    Email <HiOutlineMail size={30} />
+                    <HiOutlineMail size={30} />
+                    Email
                 </>
             ),
             href: 'mailto:viktoriiazolotova@gmail.com',
@@ -40,10 +41,12 @@ const SocialLinks = () => {
                 {links.map(({ id, child, href, style, download }) => (
                     <li
                         key={id}
-                        className={`w-40 h-14 px-4 ${style} hover:scale-105 duration-200 p-3 cursor-pointer`}
+                        className={
+                            'w-40 h-14 px-4 lg:text-xl hover:scale-105  hover:text-white duration-200 p-3 cursor-pointer'
+                        }
                     >
                         <a
-                            className="flex justify-between items-center w-full px-4"
+                            className="flex justify-space-around items-center w-full px-4"
                             href={href}
                             download={download}
                             target="_blank"

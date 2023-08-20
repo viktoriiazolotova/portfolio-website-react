@@ -23,7 +23,7 @@ const Portfolio = () => {
             altTitle: 'Inspiration Board',
             codeLink:
                 'https://github.com/viviantomato/front-end-inspiration-board',
-            demoLink: 'https://youtu.be/OP01blcyxxc',
+            demoLink: 'https://youtu.be/XN-w03iGvuE',
         },
         {
             id: 2,

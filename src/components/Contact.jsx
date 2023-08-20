@@ -1,10 +1,11 @@
 import React from 'react'
+import SocialLinks from './SocialLinks'
 
 const Contact = () => {
     return (
         <div
             name="contact"
-            className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+            className="w-full h-[65vh] bg-gradient-to-b from-black to-gray-800 p-4 text-white"
         >
             <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
                 <div className="pb-8">
@@ -15,6 +16,7 @@ const Contact = () => {
                         Submit the form below to get in touch with me
                     </p>
                 </div>
+
                 <div className="flex justify-center items-center">
                     <form
                         action="https://getform.io/f/5e4369eb-f424-4d4c-9328-b962eb7e9972"

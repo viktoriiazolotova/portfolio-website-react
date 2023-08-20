@@ -12,7 +12,7 @@ const Portfolio = () => {
         {
             id: 0,
             src: petCareExchange,
-            altTitle: 'PetCareExchange',
+            title: 'PetCareExchange',
             codeLink:
                 'https://github.com/viktoriiazolotova/front-end-pet-care-exchange',
             demoLink: 'https://pet-care-exchange-react.web.app/',
@@ -20,7 +20,7 @@ const Portfolio = () => {
         {
             id: 1,
             src: inspirationBoard,
-            altTitle: 'Inspiration Board',
+            title: 'Inspiration Board',
             codeLink:
                 'https://github.com/viviantomato/front-end-inspiration-board',
             demoLink: 'https://youtu.be/XN-w03iGvuE',
@@ -28,7 +28,7 @@ const Portfolio = () => {
         {
             id: 2,
             src: portfolioV1,
-            altTitle: 'Portfolio v1',
+            title: 'Portfolio v1',
             codeLink:
                 'https://github.com/viktoriiazolotova/personal-portfolio-site',
             demoLink: 'https://viktoriiazolotova.github.io/',
@@ -37,21 +37,21 @@ const Portfolio = () => {
         {
             id: 3,
             src: chatLogApplication,
-            altTitle: 'Chat Log Applicatipn',
+            title: 'Chat Log Applicatipn',
             codeLink: 'https://github.com/viktoriiazolotova/react-chatlog',
             demoLink: 'https://youtu.be/_ltbp0X-VV4',
         },
         {
             id: 4,
             src: weatherReport,
-            altTitle: 'Weather Report',
+            title: 'Weather Report',
             codeLink: 'https://github.com/viktoriiazolotova/weather-report',
             demoLink: 'https://youtu.be/uQP-OOaRVFY',
         },
         {
             id: 5,
             src: taskList,
-            altTitle: 'Todo List',
+            title: 'Todo List',
             codeLink: 'https://github.com/viktoriiazolotova/task-list-api',
             demoLink: 'https://github.com/viktoriiazolotova/task-list-api',
         },
@@ -62,7 +62,7 @@ const Portfolio = () => {
             name="portfolio"
             className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pb-12"
         >
-            <div className="max-w-screen-max-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+            <div className="max-w-screen-max-lg lg:p-16 md:p-8 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <h3 className="text-4xl font-bold inline border-b-4 border-gray-500">
                         Portfolio
@@ -70,13 +70,13 @@ const Portfolio = () => {
                     <p className="py-6">Check out some of my work right here</p>
                 </div>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                    {portfolio.map(({ id, src, altTitle }) => (
+                    {portfolio.map(({ id, src, title }) => (
                         <PortfolioItem
                             key={id + 1}
                             src={src}
                             id={id}
                             portfolio={portfolio}
-                            altTitle={altTitle}
+                            title={title}
                         />
                     ))}
                 </div>

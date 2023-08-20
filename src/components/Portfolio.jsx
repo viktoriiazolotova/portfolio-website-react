@@ -33,33 +33,34 @@ const Portfolio = () => {
                 'https://github.com/viktoriiazolotova/personal-portfolio-site',
             demoLink: 'https://viktoriiazolotova.github.io/',
         },
+
         {
             id: 3,
-            src: taskList,
-            altTitle: 'Todo List',
-            codeLink: 'https://github.com/viktoriiazolotova/task-list-api',
-            demoLink: 'https://github.com/viktoriiazolotova/task-list-api',
-        },
-        {
-            id: 4,
             src: chatLogApplication,
             altTitle: 'Chat Log Applicatipn',
             codeLink: 'https://github.com/viktoriiazolotova/react-chatlog',
             demoLink: 'https://youtu.be/_ltbp0X-VV4',
         },
         {
-            id: 5,
+            id: 4,
             src: weatherReport,
             altTitle: 'Weather Report',
             codeLink: 'https://github.com/viktoriiazolotova/weather-report',
             demoLink: 'https://youtu.be/uQP-OOaRVFY',
+        },
+        {
+            id: 5,
+            src: taskList,
+            altTitle: 'Todo List',
+            codeLink: 'https://github.com/viktoriiazolotova/task-list-api',
+            demoLink: 'https://github.com/viktoriiazolotova/task-list-api',
         },
     ]
 
     return (
         <div
             name="portfolio"
-            className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+            className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pb-12"
         >
             <div className="max-w-screen-max-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">

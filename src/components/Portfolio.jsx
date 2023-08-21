@@ -51,7 +51,7 @@ const Portfolio = () => {
         {
             id: 5,
             src: taskList,
-            title: 'Todo List',
+            title: 'Todo List API',
             codeLink: 'https://github.com/viktoriiazolotova/task-list-api',
             demoLink: 'https://github.com/viktoriiazolotova/task-list-api',
         },

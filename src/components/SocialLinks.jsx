@@ -58,7 +58,7 @@ const SocialLinks = () => {
                 ))}
             </ul>
             <p className="p-10 text-md text-center text-bold text-white bg-gray-800">
-                Build by Viktoriia Zolotova 2023
+                Build with 💙 and ☕️ by Viktoriia Zolotova 2023
             </p>
         </div>
     )

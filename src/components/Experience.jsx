@@ -1,4 +1,5 @@
 import React from 'react'
+import api from '..//assets/api.png'
 import css from '..//assets/css.png'
 import django from '..//assets/django.png'
 import expressjs from '../assets/expressjs.png'
@@ -6,11 +7,13 @@ import flask from '../assets/flask.png'
 import github from '..//assets/github.png'
 import html from '..//assets/html.png'
 import javascript from '..//assets/javascript.png'
+import jest from '..//assets/jest.png'
 import cypress from '..//assets/cypress.png'
 import node from '..//assets/node.png'
 import postgres from '..//assets/postgresql.png'
 import python from '..//assets/python.png'
 import reactImage from '..//assets/reactImage.png'
+import redux from '..//assets/redux.png'
 
 const Experience = () => {
     const skills = [
@@ -51,42 +54,62 @@ const Experience = () => {
             title: 'React',
             style: 'shadow-blue-600',
         },
-
         {
             id: 7,
-            src: python,
-            title: 'Python',
-            style: 'shadow-blue-400',
+            src: redux,
+            title: 'Redux',
+            style: 'shadow-purple-600',
         },
         {
             id: 8,
-            src: flask,
-            title: 'Flask',
-            style: 'shadow-gray-400',
-        },
-        {
-            id: 9,
-            src: django,
-            title: 'Django',
-            style: 'shadow-green-600',
-        },
-        {
-            id: 10,
-            src: postgres,
-            title: 'PostgreSQL',
-            style: 'shadow-white',
-        },
-        {
-            id: 11,
             src: cypress,
             title: 'Cypress',
             style: 'shadow-green-400',
         },
         {
+            id: 9,
+            src: jest,
+            title: 'Jest',
+            style: 'shadow-red-400',
+        },
+
+        {
+            id: 10,
+            src: python,
+            title: 'Python',
+            style: 'shadow-blue-400',
+        },
+
+        {
+            id: 11,
+            src: flask,
+            title: 'Flask',
+            style: 'shadow-gray-400',
+        },
+        {
             id: 12,
+            src: django,
+            title: 'Django',
+            style: 'shadow-green-600',
+        },
+        {
+            id: 13,
+            src: postgres,
+            title: 'PostgreSQL',
+            style: 'shadow-white',
+        },
+
+        {
+            id: 14,
             src: github,
             title: 'GitHub',
             style: 'shadow-gray-400',
+        },
+        {
+            id: 15,
+            src: api,
+            title: 'REST API',
+            style: 'shadow-blue-400',
         },
     ]
     return (

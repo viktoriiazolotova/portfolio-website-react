@@ -25,7 +25,8 @@ const About = () => {
                 <br />
                 <p className="text-xl">
                     If I am not coding 💻 , you can find me hiking 🥾 , camping
-                    🏕️ , snowboarding 🏂 , or playing with my cat 🐈‍ .
+                    🏕️ , snowboarding 🏂 ,doing yoga 🧘🏻‍♀️ or playing with my cat
+                    🐈‍ .
                 </p>
             </div>
         </div>

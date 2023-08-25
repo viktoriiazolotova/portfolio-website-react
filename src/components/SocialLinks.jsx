@@ -37,7 +37,7 @@ const SocialLinks = () => {
 
     return (
         <div>
-            <ul className="flex flex-row justify-center text-blue-500 bg-gray-800">
+            <ul className="flex flex-row justify-center text-cyan-500 bg-gray-800">
                 {links.map(({ id, child, href, style, download }) => (
                     <li
                         key={id}

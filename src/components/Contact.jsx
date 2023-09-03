@@ -22,7 +22,7 @@ const Contact = () => {
                         method="POST"
                         className=" flex flex-col w-full md:w-1/2"
                     >
-                        <label class="hidden" for="name">
+                        <label className="hidden" htmlFor="name">
                             Your name
                         </label>
                         <input
@@ -32,7 +32,7 @@ const Contact = () => {
                             placeholder="Enter your name"
                             className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
                         ></input>
-                        <label class="hidden" for="email">
+                        <label className="hidden" htmlFor="email">
                             Your email
                         </label>
                         <input
@@ -42,7 +42,7 @@ const Contact = () => {
                             placeholder="Enter your email"
                             className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
                         ></input>
-                        <label class="hidden" for="message">
+                        <label className="hidden" htmlFor="message">
                             Your message
                         </label>
                         <textarea

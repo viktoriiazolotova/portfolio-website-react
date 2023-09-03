@@ -10,8 +10,8 @@ const Home = () => {
             className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-                <div className="flex flex-col justify-center h-full">
-                    <h2 className="text-4xl sm:text-7xl font-bold text-white ">
+                <div className="flex flex-col justify-center w-3/5 mb-10 md: md:mb-0">
+                    <h2 className="text-3xl sm:text-7xl font-bold text-white ">
                         I'm a Full Stack Developer
                     </h2>
                     <p className="text-blue-500 text-xl py-4 max-w-md">
@@ -36,12 +36,8 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
-                <div>
-                    <img
-                        className="rounded-3xl mx-auto w-2/3"
-                        src={profilePicture}
-                        alt="my profile"
-                    ></img>
+                <div className="w-2/5">
+                    <img src={profilePicture} alt="my profile"></img>
                 </div>
             </div>
         </div>

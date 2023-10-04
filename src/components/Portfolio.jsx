@@ -1,6 +1,7 @@
 import React from 'react'
-import chatLogApplication from '../assets/portfolio/chatLogApplication.png'
+// import chatLogApplication from '../assets/portfolio/chatLogApplication.png'
 import inspirationBoard from '../assets/portfolio/inspirationBoard.png'
+import kittyWonderland from '../assets/portfolio/kittyWonderland.jpeg'
 import petCareExchange from '../assets/portfolio/petCareExchange.png'
 import portfolioV1 from '../assets/portfolio/portfolioV1.png'
 import taskList from '../assets/portfolio/taskList.jpeg'
@@ -11,6 +12,14 @@ const Portfolio = () => {
     const portfolio = [
         {
             id: 0,
+            src: kittyWonderland,
+            title: 'Kitty Wonderland',
+            codeLink: 'https://github.com/viktoriiazolotova/react-memory-game',
+            demoLink: 'https://kitty-wonderland.netlify.app/',
+        },
+
+        {
+            id: 1,
             src: petCareExchange,
             title: 'PetCareExchange',
             codeLink:
@@ -18,7 +27,7 @@ const Portfolio = () => {
             demoLink: 'https://pet-care-exchange-react.web.app/',
         },
         {
-            id: 1,
+            id: 2,
             src: inspirationBoard,
             title: 'Inspiration Board',
             codeLink:
@@ -26,7 +35,7 @@ const Portfolio = () => {
             demoLink: 'https://youtu.be/XN-w03iGvuE',
         },
         {
-            id: 2,
+            id: 3,
             src: portfolioV1,
             title: 'Portfolio v1',
             codeLink:
@@ -34,13 +43,13 @@ const Portfolio = () => {
             demoLink: 'https://viktoriiazolotova.github.io/',
         },
 
-        {
-            id: 3,
-            src: chatLogApplication,
-            title: 'Chat Log Applicatipn',
-            codeLink: 'https://github.com/viktoriiazolotova/react-chatlog',
-            demoLink: 'https://youtu.be/_ltbp0X-VV4',
-        },
+        // {
+        //     id: 3,
+        //     src: chatLogApplication,
+        //     title: 'Chat Log Applicatipn',
+        //     codeLink: 'https://github.com/viktoriiazolotova/react-chatlog',
+        //     demoLink: 'https://youtu.be/_ltbp0X-VV4',
+        // },
         {
             id: 4,
             src: weatherReport,

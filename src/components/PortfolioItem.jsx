@@ -18,7 +18,7 @@ const PortfolioItem = ({ id, src, portfolio, title }) => {
             <img
                 src={src}
                 alt={title}
-                className="rounded-md duration-200 hover:scale-105 h-3/4 w-full"
+                className="rounded-md duration-200 hover:scale-105 h-30 md:h-60 lg:h-3/4 w-full"
             ></img>
 
             <div className="flex items-center justify-center">
